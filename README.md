@@ -1,4 +1,4 @@
-# Trading Helper Repository
+# Trading Simulation Repository
 
 This repository contains tools designed to assist with investments using the Korea Investment & Securities API. It includes scripts for stock analysis, backtesting, and automated trading simulation.
 
