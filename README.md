@@ -24,44 +24,15 @@ This repository provides a complete pipeline for simulating trading strategies b
 
 ---
 
-## File Descriptions
+## File Description
 
-- **`data_fetcher.py`**
-  - Contains functions to authenticate with the API and fetch stock data.
-
-- **`visualizer.py`**
-  - Includes tools for plotting stock price trends and moving averages.
-
-- **`strategy_simulator.py`**
-  - Implements the moving average crossover strategy and evaluates the trading performance.
-
-- **`main.py`**
-  - Entry point for executing the entire pipeline from data retrieval to strategy simulation and result export.
-
----
-
-## How to Use
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/trading-simulation.git
-   cd trading-simulation
-   ```
-
-2. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Set up your API credentials:
-   - Replace placeholders in `config.json` with your Korea Investment & Securities API credentials.
-
-4. Run the simulation:
-   ```bash
-   python main.py
-   ```
-
-5. Check the output CSV file in the `results/` directory for simulation results.
+- **`trading_simul.ipynb`**
+  - A Jupyter Notebook that consolidates all functionalities:
+    - Authenticates with the API and fetches stock data.
+    - Visualizes stock trends and moving averages.
+    - Implements a moving average crossover strategy.
+    - Simulates trades and evaluates the strategy.
+    - Exports simulation results to a CSV file.
 
 ---
 
